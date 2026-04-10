@@ -10,8 +10,10 @@ Este projeto faz parte do meu portfólio pessoal e demonstra a implementação d
 
 Veja o projeto em ação:
 
+## 📺 Demonstração
+
 <div align="center">
-  <video src="assets/jogo.mp4" width="100%" controls></video>
+  <video src="https://raw.githubusercontent.com/rubenmassuquetto1999/modern-jokenpo-alexa/main/assets/jogo.mp4" width="100%" controls></video>
 </div>
 
 > **Nota:** Caso o vídeo não carregue acima, você pode assisti-lo clicando [aqui](./assets/jogo.mp4).
