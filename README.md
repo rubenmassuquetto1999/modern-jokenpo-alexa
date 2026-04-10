@@ -8,19 +8,9 @@ Este projeto faz parte do meu portfólio pessoal e demonstra a implementação d
 
 ## 📺 Demonstração
 
-Veja o projeto em ação:
+Clique na imagem abaixo para ver o projeto em funcionamento no YouTube:
 
-## 📺 Demonstração
-
-Veja o projeto em ação:
-
-<div align="center">
-  <video src="https://github.com/rubenmassuquetto1999/modern-jokenpo-alexa/raw/main/assets/jogo.mp4" width="100%" controls>
-    Seu navegador não suporta o player de vídeo.
-  </video>
-</div>
-
-> **Nota:** Caso o vídeo não carregue acima, você pode assisti-lo clicando [aqui](./assets/jogo.mp4).
+[![Assista ao vídeo do projeto](https://img.youtube.com/vi/YZ4I0piNMIk/0.jpg)](https://www.youtube.com/watch?v=YZ4I0piNMIk)
 
 ---
 
