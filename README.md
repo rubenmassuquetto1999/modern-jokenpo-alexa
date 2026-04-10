@@ -8,9 +8,11 @@ Este projeto faz parte do meu portfólio pessoal e demonstra a implementação d
 
 ## 📺 Demonstração
 
-Clique na imagem abaixo para ver o projeto em funcionamento no YouTube:
+Clique na imagem abaixo para ver o projeto em funcionamento no YouTube (abre em nova aba):
 
-[![Assista ao vídeo do projeto](https://img.youtube.com/vi/YZ4I0piNMIk/0.jpg)](https://www.youtube.com/watch?v=YZ4I0piNMIk)
+<a href="https://www.youtube.com/watch?v=YZ4I0piNMIk" target="_blank">
+   <img src="https://img.youtube.com/vi/YZ4I0piNMIk/0.jpg" alt="Assista ao vídeo do projeto" width="100%" />
+</a>
 
 ---
 
