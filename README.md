@@ -12,8 +12,12 @@ Veja o projeto em ação:
 
 ## 📺 Demonstração
 
+Veja o projeto em ação:
+
 <div align="center">
-  <video src="https://raw.githubusercontent.com/rubenmassuquetto1999/modern-jokenpo-alexa/main/assets/jogo.mp4" width="100%" controls></video>
+  <video src="https://github.com/rubenmassuquetto1999/modern-jokenpo-alexa/raw/main/assets/jogo.mp4" width="100%" controls>
+    Seu navegador não suporta o player de vídeo.
+  </video>
 </div>
 
 > **Nota:** Caso o vídeo não carregue acima, você pode assisti-lo clicando [aqui](./assets/jogo.mp4).
