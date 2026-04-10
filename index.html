@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preload" as="image" href="https://picsum.photos/id/10/1920/1080">
     <link rel="stylesheet" href="style.css">
-    <title>JokenPô Pro</title>
+    <title>JokenPô</title>
     <link rel="shortcut icon" href="./assets/JokenPô.png" type="image/png">
 </head>
+
 <body>
 
     <div class="conteiner">
@@ -16,10 +18,10 @@
         <div class="setup">
             <select id="game-mode">
                 <option value="alexa">Vs Alexa</option>
-                <option value="human">Vs Humano (Simultâneo)</option>
+                <option value="human">Vs Humano</option>
             </select>
             <div class="names">
-                <input type="text" id="name-p1" placeholder="Jogador 1" value="Ruben">
+                <input type="text" id="name-p1" placeholder="Jogador 1">
                 <input type="text" id="name-p2" placeholder="Jogador 2" value="Alexa" disabled>
             </div>
         </div>
@@ -38,18 +40,19 @@
 
         <div class="scoreboard">
             <div class="score-card">
-                <span id="label-p1">Ruben</span>
+                <span id="label-p1" class="player-label">Jogador 1</span>
                 <span id="human-score" class="score-num">0</span>
             </div>
             <div class="score-card">
-                <span id="label-p2">Alexa</span>
+                <span id="label-p2" class="player-label">Jogador 2</span>
                 <span id="machine-score" class="score-num">0</span>
             </div>
         </div>
 
-        <button id="reset-btn">Resetar Placar</button>
+        <button id="reset-btn">RESETAR PLACAR</button>
     </div>
 
     <script src="./script.js"></script>
 </body>
+
 </html>
