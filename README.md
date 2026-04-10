@@ -10,7 +10,7 @@ Este projeto faz parte do meu portfólio pessoal e demonstra a implementação d
 
 Veja o projeto em ação:
 
-![Preview do Jogo](./assets/jogo.mp4)
+<video src="./assets/jogo.mp4" width="100%" controls></video>
 
 ---
 
