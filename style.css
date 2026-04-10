@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: url("https://picsum.photos/id/10/1920/1080") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.conteiner {
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    max-width: 600px;
+    color: white;
+}
+
+h1 {
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 2.2rem;
+}
+
+.setup {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+#game-mode {
+    padding: 15px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: none;
+    background: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.names {
+    display: flex;
+    gap: 10px;
+}
+
+.names input {
+    flex: 1;
+    padding: 15px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    border: none;
+    background: rgba(255, 255, 255, 0.9);
+    font-weight: 600;
+}
+
+.status-msg {
+    font-size: 1.4rem;
+    font-weight: bold;
+    height: 30px;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+    margin: 10px 0;
+}
+
+.buttons {
+    margin: 30px 0;
+    display: flex;
+    gap: 25px;
+}
+
+.choice {
+    width: 90px;
+    height: 90px;
+    font-size: 45px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    background: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.choice:hover {
+    transform: scale(1.15);
+}
+
+#rock { background: linear-gradient(145deg, #ff5f6d, #ffc371); }
+#paper { background: linear-gradient(145deg, #11998e, #38ef7d); }
+#scissors { background: linear-gradient(145deg, #2193b0, #6dd5ed); }
+
+.result-area {
+    height: 70px;
+    margin-top: 10px;
+}
+
+.result-text {
+    font-size: 1.8rem;
+    font-weight: 800;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.scoreboard {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin: 20px 0;
+    padding: 20px 0;
+    border-top: 1px solid rgba(255,255,255,0.3);
+}
+
+.score-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.score-num {
+    font-size: 2.5rem;
+    color: #ffd700;
+}
+
+#reset-btn {
+    margin-top: 10px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 50px;
+    background: #ff4b2b;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+
+#reset-btn:hover {
+    background: #ff416c;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(255, 75, 43, 0.4);
+}
