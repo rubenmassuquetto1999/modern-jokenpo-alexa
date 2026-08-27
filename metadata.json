@@ -1,0 +1,6 @@
+{
+  "name": "JokenPô",
+  "description": "A classic Rock-Paper-Scissors (JokenPô) game playable vs Alexa or Human with score tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
